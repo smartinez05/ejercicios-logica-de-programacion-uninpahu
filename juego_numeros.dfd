@@ -1,0 +1,101 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+10
+contador_u
+1
+0
+11
+contador_pc
+1
+0
+15
+contador_empate
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+1
+6
+1
+1
+1
+4
+1
+31
+'Inserte un numero de 1 a 1000'
+5
+1
+14
+numero_usuario
+6
+1
+9
+numero_pc
+12
+random(1000)
+7
+0
+1
+26
+numero_usuario < numero_pc
+7
+1
+1
+26
+numero_usuario = numero_pc
+4
+1
+8
+'Empate'
+6
+1
+15
+contador_empate
+19
+contador_empate + 1
+13
+4
+1
+22
+'Ha ganado el usuario'
+6
+1
+10
+contador_u
+14
+contador_u + 1
+13
+13
+4
+1
+17
+'Ha ganado el pc'
+6
+1
+11
+contador_pc
+15
+contador_pc + 1
+13
+4
+1
+84
+'El numero del usuario es ' , numero_usuario , ' y el numero del pc es ' , numero_pc
+10
+4
+1
+136
+'El usuario ha ganado ' , contador_u , ' veces, el pc ha ganado ' , contador_pc , ' veces y han empatado ' , contador_empate , ' veces.'
+1
