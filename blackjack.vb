@@ -12,7 +12,7 @@ Module Module1
         Console.WriteLine("Bienvenido a Blackjack, presiona Entrar para jugar.")
         Console.ReadLine()
 
-        For i = 1 To 3 Step 1
+        For i = 1 To 150 Step 1
             muser = 0
             mpc = 0
 
@@ -48,7 +48,7 @@ Module Module1
                 End If
             End While
 
-            'Turno de la maquina
+            'Turno de la casa
             If muser <= 21 Then
                 While mpc < 21 And mpc < muser
                     mpc = mpc + random.Next(1, 12)
@@ -78,6 +78,7 @@ Module Module1
         Next
         Console.WriteLine("El jugador ha ganado " & guser & " veces.")
         Console.WriteLine("La casa ha ganado " & gpc & " veces.")
+        Console.WriteLine("El jugador y la casa han empatado " & gemp & " veces.")
         If guser = gpc Then
             Console.WriteLine("La casa y el jugador han empatado en juegos.")
         ElseIf guser < gpc Then
